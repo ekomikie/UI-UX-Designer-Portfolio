@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Portfolio</title>
+
+    <!-- Bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+
+    <!-- Owl-carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Anime On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Default Owl-carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/app.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light nav-bar">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand" href="#"
+          ><div class="row">
+            <div class="col-3 logo-area">
+              <div class="logo-box">
+                <div class="logo-outer-circle">
+                  <div class="logo-inner-circle">
+                    <div class="logo-orange-circle"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-9"><h3 class="logo-text ps-1">RW</h3></div>
+          </div></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-3">
+            <li class="nav-item mx-md-3 py-1">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-md-3 py-1">
+              <a class="nav-link blue-link" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-md-3 py-1">
+              <a class="nav-link blue-link" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item mx-md-3 py-1">
+              <a class="nav-link blue-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="mx-md-3">
+              <a href="#contacts"><button class="btn btn-lg contact-me-btn mt-3 mt-md-0" type="button">
+               Contact Me 
+              </button></a>
+            </li>
+            <li class="mx-md-3">
+              <a href="#contacts"><button
+                class="btn btn-lg hire-me-btn mt-4 mt-lg-0"
+                type="button"
+              >
+                Hire Me
+              </button>
+            </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+          <!-- Hero Section -->
+    <header class="container-fluid header-box">
+      <div class="row">
+        <div class="col-md-8 pt-md-5">
+          <div class="hero-details" >
+            <h3 class="animate__animated animate__shakeX intro">Hi,</h3>
+            <p class="animate__animated animate__slideInLeft lead hero-name">I'm <span class="txt-type " data-wait="3000" data-words='["Rebecca Wook", "a UI/UX Designer", "a Web Developer"]'></span></p>
+   
+          </div>
+          <div class="hero-text-area animate__animated animate__fadeInUp">
+            <p id="anim-text" class="hero-text">
+              I create exceptional experiences that aligns your companies
+              strategy with your customer needs. I help founders and their
+              businesses craft excellent user experiences.
+            </p>
+            <div class="hero-contacts row">
+              <div class="col-md-5">
+                <div class="hero-email">
+                  <h4 class="email-label">Email:</h4>
+                  <p class="email-name">rebeccawook@gmail.com</p>
+                </div>
+              </div>
+              <div class="col-md-7 ps-4">
+                <div class="hero-behance">
+                  <h4 class="behance-label">Behance</h4>
+                  <p class="behance-name">behance.net/rebecca</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#contacts"><button id="hero-btn" class="animate__animated animate__bounceInUp btn btn-lg text-white hero-btn">Hire Me</button></a>
+        </div>
+        <div class="col-md-4 hero-pic-container">
+          <div class="hero-pic-wrapper" data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center">
+            <img class="img-fluid" src="assets/images/hero-pic.png" alt="">
+          </div>
+        </div>
+      </div>
+    </header>
+          <!-- Proficiency Section -->
+    <section class="container skills">
+      <div class="row justify-content-center">
+        <div class="col-md-12 skills-box mt-4 ms-2"  data-aos="flip-left" data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        >
+          <div class="row mt-5">
+            <div class="check-area img-fluid col-2">
+              <img src="assets/images/blue-checkmark.svg" alt="" />
+            </div>
+            <div class="col-10 ps-2 skills-text">
+              <h3 class="skills-title">UI/UX Designer</h3>
+              <p class="text-center pb-2">Creative websites for you</p>
+              <div class="drop-down-pic img-fluid">
+                <a href="">
+                  <img src="assets/images/drop-down.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 skills-box mt-4 ms-2" data-aos="flip-left" data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+       >
+          <div class="row mt-5">
+            <div class="check-area img-fluid col-2">
+              <img src="assets/images/orange-checkmark.svg" alt="" />
+            </div>
+            <div class="col-10 ps-2 skills-text">
+              <h3 class="skills-title">Web Development</h3>
+              <p class="text-center pb-2">web-mobile for you</p>
+              <div class="drop-down-pic img-fluid">
+                <a href="">
+                  <img src="assets/images/drop-down.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 skills-box mt-4 ms-2" data-aos="flip-left" data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        >
+          <div class="row mt-5">
+            <div class="check-area img-fluid col-2">
+              <img src="assets/images/blue-checkmark.svg" alt="" />
+            </div>
+            <div class="col-10 ps-2 skills-text">
+              <h3 class="skills-title">3D Modelling</h3>
+              <p class="text-center pb-2">3D solid models for you</p>
+              <div class="drop-down-pic img-fluid">
+                <a href="">
+                  <img src="assets/images/drop-down.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+          <!-- About me Section -->
+    <section id="about" class="about-me container py-5">
+      <div class="row">
+        <div class="col-md-6" data-aos="zoom-in-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false">
+          <div class="about-me-pic mb-5">
+            <img src="assets/images/hero-pic.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+        <div class="col-md-6 m-md-auto"
+        data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000"
+     data-aos-mirror="true"
+        data-aos-once="false">
+          <div class="about-me-intro">
+            <div class="vertical-container">
+              <div class="d-flex vertical-text vertical-first-text">
+                <div class="about-line"></div>
+                <div class="about-me-box">
+                  <p class="about-me-title">About me</p>
+                </div>
+              </div>
+            </div>
+            <div class="row ps-md-3">
+              <div class="col-8 col-md-12  text-left about-design">
+                <p>Need a Creative Design?</p>
+              </div>
+              <div class="col-4 col-md-12 ms-0 text-left about-help">
+                <p>I can Help</p>
+              </div>
+            </div>
+
+            <p class="about-text px-2 ps-md-3">
+              I am a product Designer and Digital Creative Director working in
+              design field for over 10 years. I specialized in UI/UX, Branding
+              and digital designs. These are the words we live by in everything
+              i do. Every story i tell, every brand i build, and every
+              interactions i create must l not only look beautiful.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+          <!-- My Skills Section -->
+    <section class="design-skills container">
+      <div class="row">
+        <div class="col-md-6 mt-5">
+          <div class="about-me-intro" data-aos="slide-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+           >
+            <div class="vertical-container">
+              <div class="d-flex vertical-text">
+                <div class="about-line"></div>
+                <div class="about-me-box">
+                  <p class="about-me-title">My Skills</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-12 about-design">
+              <p class="ps-2">What My Design Skills Include</p>
+            </div>
+
+            <p class="about-text px-2 pb-3">
+              I provide a range of services inUI/UX Design: creative, technical
+              and analytical solutions for your buisness. From analysis to the
+              development of solutions of any complexity.
+            </p>
+          </div>
+          <!-- progress Bar -->
+          <div class="skills-bar ps-2">
+            <div class="mb-5">
+              <p class="user-xp">User Experience</p>
+
+              <div class="progress" style="height: 10px">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 95%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  data-aos="slide-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+                ></div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <p class="user-xp">User Interface</p>
+
+              <div class="progress" style="height: 10px">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 87%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  data-aos="slide-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+                ></div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <p class="user-xp">Web Development</p>
+
+              <div class="progress" style="height: 10px">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  data-aos="slide-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+                ></div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <p class="user-xp">3D Modelling</p>
+
+              <div class="progress" style="height: 10px">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  data-aos="slide-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 m-md-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div
+                class="white-box d-flex flex-column justify-content-center align-items-center mb-4"
+                data-aos="flip-left" data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true"
+              >
+                <div class="white-icon-box">
+                  <svg height="100" width="100">
+                    <circle
+                      cx="50"
+                      cy="50"
+                      r="40"
+                      stroke="#111F4D"
+                      stroke-width="3"
+                      fill="#111F4D"
+                    />
+                  </svg>
+                  <div class="venn-box venn-pic">
+                    <img
+                      class="venn-pic"
+                      src="assets/images/venn-diagram-outline.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="icon-title"><p>User Experience</p></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="white-box mt-md-4 d-flex flex-column justify-content-center align-items-center mb-4"
+                data-aos="flip-left" data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+              >
+                <div class="white-icon-box">
+                  <svg height="100" width="100">
+                    <circle
+                      cx="50"
+                      cy="50"
+                      r="40"
+                      stroke="#111F4D"
+                      stroke-width="3"
+                      fill="#111F4D"
+                    />
+                  </svg>
+                  <div class="venn-box">
+                    <img src="assets/images/cube.svg" alt="" />
+                  </div>
+                </div>
+                <div class="icon-title"><p>User Interface</p></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="white-box mt-md-0 d-flex flex-column justify-content-center align-items-center mb-4"
+                data-aos="flip-left" data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+              >
+                <div class="white-icon-box ">
+                  <svg height="100" width="100">
+                    <circle
+                      cx="50"
+                      cy="50"
+                      r="40"
+                      stroke="#111F4D"
+                      stroke-width="3"
+                      fill="#111F4D"
+                    />
+                  </svg>
+                  <div class="venn-box">
+                    <img src="assets/images/laptop-code.svg" alt="" />
+                  </div>
+                </div>
+                <div class="icon-title"><p>Web Development</p></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="white-box mt-md-4 d-flex flex-column justify-content-center align-items-center mb-4"
+                data-aos="flip-left" data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+              >
+                <div class="white-icon-box">
+                  <svg height="100" width="100">
+                    <circle
+                      cx="50"
+                      cy="50"
+                      r="40"
+                      stroke="#111F4D"
+                      stroke-width="3"
+                      fill="#111F4D"
+                    />
+                  </svg>
+                  <div class="venn-box">
+                    <img src="assets/images/chart-3d.svg" alt="" />
+                  </div>
+                </div>
+                <div class="icon-title"><p>3D Modelling</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="dark-bg">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-md-evenly">
+          <div class="first-container">
+            <div
+              class="first-box d-flex py-4 py-md-5 align-items-center flex-column"
+              data-aos="fade-left"
+     
+     data-aos-offset="500"
+     data-aos-duration="500"
+     data-aos-once="true"
+        
+            >
+              <svg height="100" width="100">
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="40"
+                  stroke="#111F4D"
+                  stroke-width="3"
+                  fill="#F2F4F7"
+                />
+              </svg>
+              <div class="users-wrapper">
+                <img src="assets/images/users-solid.svg" alt="" />
+              </div>
+              <p class="text-white">Happy Clients</p>
+            </div>
+          </div>
+          <div class="first-container">
+            <div
+              class="first-box d-flex py-4 py-md-5 align-items-center flex-column"
+              data-aos="fade-left"
+     
+              data-aos-offset="500"
+              data-aos-duration="500"
+              data-aos-once="true"
+            >
+              <svg height="100" width="100">
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="40"
+                  stroke="#111F4D"
+                  stroke-width="3"
+                  fill="#F2F4F7"
+                />
+              </svg>
+              <div class="users-wrapper">
+                <img src="assets/images/trophy-award.svg" alt="" />
+              </div>
+              <p class="text-white">Years of Experience</p>
+            </div>
+          </div>
+          <div class="first-container">
+            <div
+              class="first-box d-flex py-4 py-md-5 align-items-center flex-column"
+              data-aos="fade-left"
+     
+              data-aos-offset="500"
+              data-aos-duration="500"
+              data-aos-once="false"
+              >
+              <svg height="100" width="100">
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="40"
+                  stroke="#111F4D"
+                  stroke-width="3"
+                  fill="#F2F4F7"
+                />
+              </svg>
+              <div class="users-wrapper">
+                <img src="assets/images/awards.svg" alt="" />
+              </div>
+              <p class="text-white">Awards winning</p>
+            </div>
+          </div>
+          <div class="first-container">
+            <div
+              class="first-box d-flex py-4 py-md-5 align-items-center flex-column"
+              data-aos="fade-left"
+     
+              data-aos-offset="500"
+              data-aos-duration="500"
+              data-aos-once="false"
+              >
+              <svg height="100" width="100">
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="40"
+                  stroke="#111F4D"
+                  stroke-width="3"
+                  fill="#F2F4F7"
+                />
+              </svg>
+              <div class="users-wrapper">
+                <img src="assets/images/folder-solid.svg" alt="" />
+              </div>
+              <p class="text-white">Completed Projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+          <!-- Portfolio Section -->
+    <section id="portfolio" class="projects container">
+      <div class="row mt-5">
+        <div class="col-md-6 mt-5"
+        data-aos="zoom-in"
+     
+        data-aos-offset="500"
+        data-aos-duration="500"
+        data-aos-once="true"
+        >
+          <div class="about-me-intro">
+            <div class="vertical-container">
+              <div class="d-flex vertical-text">
+                <div class="about-line"></div>
+                <div class="about-me-box">
+                  <p class="about-me-title">Portfolio</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-12 about-design">
+              <p class="ps-2">My latest Projects</p>
+            </div>
+
+            <p class="about-text px-2 pb-3">
+              Have a glance at some selected works i am proud of, as i delivered
+              solutions to branding and design pattern and design problems, with
+              in-depth research, innovation and creativity.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-container">
+        <div class="pic-1"
+        data-aos="fade-left"
+        data-aos-easing="ease-in-sine"
+     data-aos-offset="500"
+     data-aos-duration="500">
+          <img
+            class="img-fluid"
+             src="assets/images/portfolio-pic1.png" 
+            alt=""
+          />
+        </div>
+        <div class="pic-2"
+        data-aos="fade-up"
+        data-aos-easing="ease-in-sine"
+     data-aos-offset="500"
+     data-aos-duration="500">
+          <img
+            class="img-fluid img-2"
+            src="assets/images/portfolio-pic3.png"
+            alt=""
+          />
+        </div>
+        <div class="pic-3"
+        data-aos="fade-right"
+        data-aos-easing="ease-in-sine"
+     data-aos-offset="500"
+     data-aos-duration="500"
+     data-aos-once="false">
+          <img
+            class="img-fluid img-3"
+            src="assets/images/portfolio-pic5.png"
+            alt=""
+          />
+        </div>
+        <div class="pic-4"
+        data-aos="fade-left"
+        data-aos-easing="ease-in-sine"
+     data-aos-offset="500"
+     data-aos-duration="500"
+     data-aos-once="false">
+          <img
+            class="img-fluid"
+            src="assets/images/portfolio-pic2.png"
+            alt=""
+          />
+        </div>
+        <div class="pic-5"
+        data-aos="fade-up"
+        data-aos-easing="ease-in-sine"
+     data-aos-offset="500"
+     data-aos-duration="500"
+     data-aos-once="false">
+          <img
+            class="img-fluid"
+            src="assets/images/portfolio-pic4.png"
+            alt=""
+          />
+        </div>
+        <div class="pic-6"
+        data-aos="fade-right"
+        data-aos-easing="ease-in-sine"
+     data-aos-offset="500"
+     data-aos-duration="500"
+     data-aos-once="false">
+          <img
+            class="img-fluid"
+            src="assets/images/portfolio-pic6.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="btn-box text-center">
+        <button class="btn my-4 text-white btn-block view-more-btn">
+          View More
+        </button>
+      </div>
+    </section>
+        
+          <!-- Clients Section -->
+    <section class="clients container">
+      <div class="row mt-5">
+        <div class="col-md-6 mt-5"
+        data-aos="zoom-in"
+     
+        
+        data-aos-duration="500"
+        data-aos-once="true">
+          <div class="about-me-intro">
+            <div class="vertical-container">
+              <div class="d-flex vertical-text">
+                <div class="about-line"></div>
+                <div class="about-me-box">
+                  <p class="about-me-title">Clients</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-12 about-design">
+              <p class="ps-2">Companies I have worked with</p>
+            </div>
+
+            <p class="about-text px-2 pb-4">
+              I provide a range of services in UI/UX Design: creative, technical
+              and analytical solutions for your buisness. From analysis to the
+              development of solutions of any complexity.
+            </p>
+          </div>
+        </div>
+      </div>
+        
+        <div class="companies-box ">
+          <div class="companies-wrapper pb-5 d-flex flex-column flex-md-row  justify-content-md-evenly">
+            <div class="ariga-container mt-md-3 d-flex justify-content-center"
+            data-aos="zoom-in-down"
+            data-aos-once="true">
+              <div class="ariga-box ms-md-2">
+                <div class="line-one"></div>
+                <div class="line-two"></div>
+                <div class="line-three"></div>
+                <div class="line-four"></div>
+              </div>
+              <div class="logo-name ps-3 ps-md-1 d-flex">
+                <div class="letter-A">
+                  <img src="assets/images/Fill 48.svg" alt="" />
+                </div>
+                <div class="letter-R">
+                  <img src="assets/images/Fill 49.svg" alt="" />
+                </div>
+                <div class="letter-I">
+                  <img src="assets/images/Fill 50.svg" alt="" />
+                </div>
+                <div class="letter-G">
+                  <img src="assets/images/Fill 51.svg" alt="" />
+                </div>
+                <div class="another-A">
+                  <img src="assets/images/Fill 52.svg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="korapay-container mt-2 ps-md-3 ps-lg-3  d-flex justify-content-center"
+            data-aos="zoom-in-down"
+            data-aos-once="true">
+              <div class="korapay-icon mt-4 mt-md-2">
+                <img src="assets/images/korapay.svg" alt="" />
+              </div>
+              <div class="korapay-name ps-3 ps-md-1">
+                <div class="letterK-Y">
+                  <img src="assets/images/letter-k.svg" alt="" />
+                </div>
+                <div class="letterK-O">
+                  <img src="assets/images/letterk-o.svg" alt="" />
+                </div>
+                <div class="letterK-R">
+                  <img src="assets/images/letterk-r.svg" alt="" />
+                </div>
+                <div class="letterK-APA">
+                  <img src="assets/images/letter-apa.svg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="access-container mt-2 ps-md-2 ps-lg-3 d-flex justify-content-center"
+            data-aos="zoom-in-down"
+            data-aos-once="false">
+              <div class="access-icon mt-3 mt-md-0 ">
+                <div class="access-kite-1">
+                  <img src="assets/images/access-kite-1.svg" alt="" />
+                </div>
+                <div class="access-kite-2">
+                  <img src="assets/images/access-kite-2.svg" alt="" />
+                </div>
+                <div class="access-kite-3">
+                  <img src="assets/images/access-kite-3.svg" alt="" />
+                </div>
+                <img src="" alt="" />
+              </div>
+              <div class="access-name ps-2 ps-md-0 ps-lg-2 d-flex"
+              data-aos="zoom-in-down"
+              data-aos-once="false">
+                <div class="access-A pe-1">
+                  <img src="assets/images/access-a.svg" alt="" />
+                </div>
+                <div class="access-C">
+                  <img src="assets/images/access-c.svg" alt="" />
+                </div>
+                <div class="access-c">
+                  <img src="assets/images/access-c-1.svg" alt="" />
+                </div>
+                <div class="access-e">
+                  <img src="assets/images/access-e.svg" alt="" />
+                </div>
+                <div class="access-s">
+                  <img src="assets/images/access-s.svg" alt="" />
+                </div>
+                <div class="access-S">
+                  <img src="assets/images/access-s-1.svg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="andela-container ps-md-3 d-flex flex-column align-items-center"
+            >
+              <div class="andela-box"
+              data-aos="zoom-in-down"
+              data-aos-once="false">
+                <img src="assets/images/andela.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+     </section>
+
+    <section class="second-blue-bg"
+    data-aos="flip-up"
+     
+        
+        data-aos-duration="700"
+        data-aos-once="false">
+      <div class="container py-5 text-center">
+        <div class="heading">
+           <h4 class="blue-heading">I am available to pick up any project </h3> 
+        </div>
+        <p class="lead px-3 py-3 blue-heading-text ">Let's build something together! Enjoy the luxury of working with me</p>
+
+        <a href="#contacts"><button class="btn px-4 btn-block text-white orange-btn">Hire Me</button></a>
+      </div>
+    </section>
+
+      <!-- Testimonial Section -->
+    <section id="testimonials" class="review container">
+      <div class="row my-5">
+        <div class="col-md-6 mt-5"
+        data-aos="zoom-in"
+        data-aos-duration="500"
+        data-aos-once="false">
+          <div class="about-me-intro">
+            <div class="vertical-container">
+              <div class="d-flex vertical-text">
+                <div class="col-3 about-line"></div>
+                <div class="col-9 about-me-box">
+                  <p class="about-me-title">Reviews</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-12 about-design">
+              <p class="ps-2">Testimonials</p>
+            </div>
+
+            <p class="about-text px-2 pb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim odio semper aenean dolor mauris. Id magna quisque lorem urna, vitae nisl turpis.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="owl-carousel my-5 owl-theme">
+      
+        <div class="one-box mb-5">
+          <div class="feedback m-sm-auto p-4 py-md-4 px-md-5">
+            <p class="opening-double-quote">
+                    "
+            </p>
+            <p class="feedback-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas pharetra risus sit nunc integer. Id sit porta habitant viverra sed.
+            </p>
+            <p class="closing-double-quote">
+              "
+           </p>
+           <p class="feedback-name">
+             Mull Din
+           </p>
+          </div>
+        </div>
+      
+         
+  </div>
+
+    </section>
+
+          <!-- Contact Section -->
+    <section id="contacts" class="contact-me-section mb-md-2 container"
+    data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="about-me-intro">
+              <div class="vertical-container">
+                <div class="d-flex vertical-text">
+                  <div class="about-line"></div>
+                  <div class="about-me-box">
+                    <p class="about-me-title">Contact Me</p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col col-md-12 about-design">
+                <p class="ps-2">Get In Touch</p>
+              </div>
+  
+              <p class="about-text px-2 pb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam eu rhoncus urna accumsan. Vitae vel sapien morbi urna sit viverra in.
+              </p>
+            </div>
+            <div class="social-icons pb-3 d-flex">
+              <div class="behance pe-3">
+                <a href="https://www.behance.com" target="_blank"><img src="assets/images/social-behance.svg" alt=""></a>
+              </div>
+              <div class="linkedin pe-4">
+               <a href="https://www.linkedin.com" target="_blank"> <img src="assets/images/linkedin-icon.svg" alt=""></a>
+              </div>
+              <div class="dribble">
+                <a href="https://www.dribbble.com" target="_blank"><img src="assets/images/dribbble-seeklogo.com.svg" alt=""></a> 
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form class="mt-5 mt-md-0">
+              <div class="mb-3">
+                  <input type="text" class="form-control form-box p-3" placeholder="Name" aria-describedby="nameHelp">
+               </div>
+              
+              <div class="mb-3">
+                
+                <input type="email" class="form-control form-box p-3" placeholder="Email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              <div class="mb-3">
+                
+                <input type="tel" class="form-control form-box p-3" placeholder="Phone Number" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              
+              <div class="mb-3">
+               
+                <textarea class="form-control form-box p-3" placeholder="Type message" id="exampleFormControlTextarea1" rows="5"></textarea>
+              </div>
+              <div class="send-wrapper mb-5 text-center">
+                <button type="submit" class="send-btn px-4 py-2 btn text-white btn-block">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </section>
+         
+          <!-- Footer Section -->
+    <footer class="footer mt-md-5 py-3">
+        <p class="text-white mt-2 text-center container foot-text">&copy; Copyright 2020 RW Portfolio. All rights reserved.</p>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous">
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/javascript/main.js"></script>
+  </body>
+</html>
