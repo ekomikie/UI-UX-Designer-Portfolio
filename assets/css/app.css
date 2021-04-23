@@ -369,6 +369,19 @@ z-index: 3;
  
 }
 
+.design-sub{
+  padding-left: 9px;
+}
+
+.about-help{
+  position: relative;
+}
+
+.about-help > p{
+  position:absolute;
+  left: -9px;
+}
+
 .about-design, .about-help{
   font-size: 1rem;
   color: #111F4D;
@@ -733,6 +746,19 @@ animation:shake 1s ease-in-out;
 
 .about-help{
   font-size: 2rem;
+}
+  
+  .design-sub{
+  padding-left: 0;
+}
+
+.about-text{
+  margin-top:45px ;
+}
+
+.about-help > p{
+  position:absolute;
+  left: 12px;
 }
 
   .vertical-text{
