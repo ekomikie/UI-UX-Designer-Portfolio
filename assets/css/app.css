@@ -66,12 +66,7 @@ body{
   background-color: #F2F4F7;
 }
 
-.navbar-toggler{
-  width: 47px;
-  height: 34px;
-  
- 
-  }
+
 
   .nav-link{
       position: relative;
@@ -157,21 +152,72 @@ color: white;
 .hire-me-btn:focus{
 color: #E43A19;
 }
-  .navbar-light .navbar-toggler{
-    outline-style:unset;
-  }
-
-  .navbar-light .navbar-toggler:focus{
+  
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
     outline: none;
-  }
-  .navbar-toggler .line{
-    width: 100%;
-    float: left;
-    height: 2px;
-    background-color:#E43A19 ;
-    margin-bottom: 5px;
-    }
-    
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.menu-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:45px;
+  height: 45px;
+  cursor: pointer;
+  transition:all .5s ease-in-out;
+  border: 3px solid transparent;
+}
+
+.menu-btn_burger{
+  width: 32px;
+  height: 3px;
+  position: relative;
+  background-color:#E43A19;
+  border-radius: 3px;
+  
+  transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger::before,
+.menu-btn_burger::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width:32px;
+height: 3px;
+background-color:#E43A19;
+  border-radius: 3px;
+  
+  transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger::before{
+  transform: translateY(-10px);
+}
+
+.menu-btn_burger::after{
+  transform: translateY(10px);
+}
+
+.menu-btn.open .menu-btn_burger {
+   transform: translateX(-50px);
+   background: transparent;
+   box-shadow: none;
+ }
+
+.menu-btn.open .menu-btn_burger::before{
+   transform: rotate(45deg) translate(35px, -35px);
+ }
+
+.menu-btn.open .menu-btn_burger::after{
+transform: rotate(-45deg) translate(35px, 35px);
+}
+
   
 
 .navbar-light .navbar-nav .nav-link.active{
