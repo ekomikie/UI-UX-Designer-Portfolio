@@ -27,7 +27,9 @@ body{
   
 }
 
-
+.nav-bar {
+  overflow-x:hidden;
+}
 
 .logo-outer-circle{
   position: relative;
